@@ -1,0 +1,38 @@
+* {
+   padding: 0;
+   margin:0;
+   box-sizing: border-box;
+}
+
+.a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #230A59;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.Welcome-form input,
+.Welcome-form button{
+  display: block;
+  width: 100%;
+}
+
+.Welcome-form input{
+  margin-bottom: 1em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+
+.Welcome-form input:focus {
+  outline: none;
+}
